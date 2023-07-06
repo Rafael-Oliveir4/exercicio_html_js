@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./main.css" />
+  <title>Exercicio Modulo 7</title>
+</head>
+
+<body>
+  <div class="container">
+  <header>Exercicio Modulo 7</header>
+  <p>Insira um numero no campo A e um numero no campo B</p>
+  <p>Lembre-se: O numero inserido no campo B deve ser maior que o do campo A</p>
+  <form id="formNumero">
+    <div class="inputAB">
+    <label for="campoA" class="labelA">Insira o número</label>
+    <input type="number" id="campoA" placeholder="CAMPO A" />
+    <label for="campoB" class="labelB">Insira o número</label>
+    <input type="number" id="campoB" placeholder="CAMPO B" />
+    <button type="submit">Comparar</button>
+  </div>
+  </form>
+  <p id="mensagemCorreto">
+    Correto, o valor do campo A e maior do que o valor do campo B!
+  </p>
+  <p id="mensagemIncorreto">
+    Incorreto! Revise os numeros e tente novamente!
+  </p>
+  <script src="main.js"></script>
+</div>
+</body>
+
+</html>
